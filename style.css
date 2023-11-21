@@ -1,0 +1,24 @@
+html{
+    font-family: 'Comfortaa', sans-serif;
+}
+body{
+    margin: 0;
+}
+.h-container{
+    width: auto;
+    height: 1000px;
+    background-color: black;
+}
+.h-nav-container a{
+    text-decoration: none;
+    color: white;
+    float: left;
+    margin: 20px 10px 0 30px;
+    font-size: 20px;
+}
+.h-nav-container a:hover{
+    transform: scale(1.2);
+    color: #00FFF5;
+    transition: transform 0.3s ease, color 0.3s ease;
+    
+}
