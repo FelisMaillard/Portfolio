@@ -39,7 +39,7 @@ body{
     line-height: 25px;
 }
 .pdp{
-    width: 400px;
+    width: 50%;
     margin-left: 25%;
 }
 .body-container{
@@ -71,6 +71,25 @@ body{
     margin-left: 17%;
 }
 .body-container h1{
+    color: white;
     text-align: center;
-    margin-left: 27%;
+    margin-top: 15%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.body-container{
+    display: grid;
+    grid-template-columns: 12fr 16fr;
+}
+.grad{
+    width: 70%;
+    margin-top:8%;
+    margin-left: 25%;
+}
+.black{
+    height: 10%;
+    width: 90%;
+    background-color: #000000;
+    text-align: center;
+    border-radius: 20px;
 }
