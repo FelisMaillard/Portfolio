@@ -68,5 +68,8 @@ body{
     transition: transform 0.25s;
 }
 #jvsubv{
-    margin-left: 7%;
+    margin-left: 17%;
+}
+.body-container h1{
+    text-align: center;
 }
