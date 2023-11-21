@@ -31,13 +31,42 @@ body{
 .h-below-container h1{
     color: #00FFF5;
     margin-left: 20%;
-    margin-top: 10%;
+    margin-top: 15%;
 }
 .h-below-container p{
     color: white;
     margin-left: 15%;
+    line-height: 25px;
 }
 .pdp{
-    width: 350px;
+    width: 400px;
     margin-left: 25%;
+}
+.body-container{
+    height: 600px;
+    width: 100%;
+    background-color: white;
+}
+#scrollToTopButton {
+    opacity: 1;
+    position: fixed;
+    bottom: 2vh;
+    right: -8vw;
+    color: #FFFFFF;
+    padding: 10px;
+    cursor: pointer;
+    transition: opacity 0.3s; /* Ajoutez la transition d'opacité */
+}
+.retour_haut{
+    width: 25%;
+    background-color: #000000;
+    border-radius: 50%;
+}
+
+.retour_haut:hover{
+    transform: scale(0.9);
+    transition: transform 0.25s;
+}
+#jvsubv{
+    margin-left: 17%;
 }
