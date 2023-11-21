@@ -8,6 +8,7 @@ body{
     width: auto;
     height: 700px;
     background-color: black;
+    display: grid;
 }
 .h-nav-container a{
     text-decoration: none;
@@ -15,10 +16,28 @@ body{
     float: left;
     margin: 20px 10px 0 30px;
     font-size: 20px;
+    max-height: 50px;
 }
 .h-nav-container a:hover{
     transform: scale(1.2);
     color: #00FFF5;
     transition: transform 0.3s ease, color 0.3s ease;
     
+}
+.h-below-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.h-below-container h1{
+    color: #00FFF5;
+    margin-left: 20%;
+    margin-top: 10%;
+}
+.h-below-container p{
+    color: white;
+    margin-left: 15%;
+}
+.pdp{
+    width: 350px;
+    margin-left: 25%;
 }
