@@ -4,11 +4,16 @@ html{
 body{
     margin: 0;
 }
+header {
+    position: sticky;
+    top: 0px;
+}
 .h-container{
     width: auto;
-    height: 700px;
+    height: 100px;
     background-color: black;
     display: grid;
+    border-bottom: #FFFFFF 1px solid;
 }
 .h-nav-container a{
     text-decoration: none;
@@ -22,11 +27,6 @@ body{
     transform: scale(1.2);
     color: #00FFF5;
     transition: transform 0.3s ease, color 0.3s ease;
-    
-}
-.h-below-container{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
 }
 .h-below-container h1{
     color: #00FFF5;
@@ -42,11 +42,7 @@ body{
     width: 50%;
     margin-left: 25%;
 }
-.body-container{
-    height: 600px;
-    width: 100%;
-    background-color: white;
-}
+
 #scrollToTopButton {
     opacity: 1;
     position: fixed;
@@ -55,7 +51,7 @@ body{
     color: #FFFFFF;
     padding: 10px;
     cursor: pointer;
-    transition: opacity 0.3s; /* Ajoutez la transition d'opacité */
+    transition: opacity 0.3s;
 }
 .retour_haut{
     width: 25%;
@@ -70,16 +66,25 @@ body{
 #jvsubv{
     margin-left: 17%;
 }
-.body-container h1{
+.body-container-i1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 600px;
+    color:#FFFFFF;
+    background-color: #000000;
+}
+.body-container-i1 h1{
     color: white;
     text-align: center;
-    margin-top: 15%;
+    margin-top: 20%;
     padding-top: 20px;
     padding-bottom: 20px;
 }
-.body-container{
-    display: grid;
-    grid-template-columns: 12fr 16fr;
+.body-container-i1 p{
+    margin: 0 0 10px 100px;
+}
+.body-container-i1 img{
+    margin-top: 80px;
 }
 .grad{
     width: 70%;

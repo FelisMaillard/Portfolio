@@ -13,25 +13,28 @@
     <div class="h-container">
         <div class="h-nav-container">
             <nav>
-                <a href="">Home</a>
-                <a href="">Parcours</a>
-                <a href="">A propos</a>
-                <a href="">Télécharger mon CV</a>
+                <a href="index.html">Home</a>
+                <a href="parcour.html">Parcours</a>
+                <a href="aproposdemoi.html">A propos</a>
+                <a href="img/CVFélisMaillard.pdf"
+                download="img/CVFélisMaillard.pdf" target="_blank">Télécharger mon CV</a>
             </nav>
-        </div>
-        <div class="h-below-container">
-            <div class="h-below-container-item1">
-                <h1>Félis Maillard</h1>
-                <p>Je suis étudiant en informatique dans un BTS SIO option SLAM à Saint-Nazaire ! J'étudie actuellement à l'Institut Informatique Appliquée (IIA)</p>
-                <p id="jvsubv">Je vous souhaite une bonne visite !</p>
-            </div>
-            <div class="h-below-container-item2"><img src="img/moi.png" alt="" class="pdp"></div>
         </div>
     </div>  
 </header>
 <body>
     <div class="body-container">
         <div class="body-container-i1">
+            <div class="body-container-item1">
+                <h1>Félis Maillard</h1>
+                <p>Je suis étudiant en informatique dans un BTS SIO option SLAM à Saint-Nazaire ! J'étudie actuellement à l'Institut Informatique Appliquée (IIA)</p>
+                <p id="jvsubv">Je vous souhaite une bonne visite !</p>
+            </div>
+            <div class="body-container-item2">
+                <img src="img/moi.png" alt="" class="pdp">
+            </div>
+        </div>
+        <div class="">
             <img src="img/graduation.jpg" alt="" class="grad">
         </div>
         <div class="body-container-i2">
